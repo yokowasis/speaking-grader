@@ -1,0 +1,65 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background: radial-gradient(
+    circle farthest-corner at center,
+    #fff 0%,
+    #aaa 100%
+  );
+}
+body {
+  padding: 32px;
+}
+
+#info {
+  font-size: 20px;
+}
+#div_start {
+  float: right;
+}
+#headline {
+  text-decoration: none;
+}
+#results {
+  font-size: 14px;
+  font-weight: bold;
+  border: 1px solid #ddd;
+  padding: 15px;
+  text-align: left;
+  min-height: 150px;
+  background: #fff;
+}
+#start_button {
+  border: 0;
+  background-color: transparent;
+  padding: 0;
+}
+.interim {
+  color: gray;
+}
+.final {
+  color: black;
+  padding-right: 3px;
+}
+.button {
+  display: none;
+}
+.marquee {
+  margin: 20px auto;
+}
+
+#buttons {
+  margin: 10px 0;
+  position: relative;
+  top: -50px;
+}
+
+#copy {
+  margin-top: 20px;
+}
+
+#copy > div {
+  display: none;
+  margin: 0 70px;
+}
